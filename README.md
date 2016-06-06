@@ -1,4 +1,4 @@
-Project #1: The Game
+#Project #1: The Game
 Overview
 
 Let's start out with something fun - a game!
