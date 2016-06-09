@@ -149,11 +149,10 @@ $(document).ready(function () {
     // switch players
     if (quiz.currentPlayer === 1) {
       quiz.currentPlayer = 2
-      $('.left').css("background-color", "green")
     } else {
       quiz.currentPlayer = 1
-      $('.right').css("background-color", "green")
     }
+    highlightPlayer()
     // return answers
     if (choice === correctA) {
       return true
@@ -236,11 +235,25 @@ $(document).ready(function () {
     $('.ansChoice').eq(2).toggle()
     $('.ansChoice').eq(3).toggle()
     $('#start').toggle()
-
+    $('.left').css('color', '#5cd65c')
     restart()
     updateDisplay()
   })
 
+  function highlightPlayer () {
+    if (quiz.currentPlayer === 1) {
+      $('.left').css('color', '#5cd65c')
+      $('.right').css('color', 'black')
+    } else if (quiz.currentPlayer === 2) {
+      $('.right').css('color', '#5cd65c')
+      $('.left').css('color', 'black')
+    }
+  }
+
+  // $('.ansChoice').eq(i).text()
+  // $('.ansChoice').click(function () {
+  //   playTurn($(this).index())
+  // })
   // correct answer highlights (thanks Brian!)
   $('#a0').click(function () {
     if (correctAnswer() === 0) {
