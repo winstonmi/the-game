@@ -149,8 +149,10 @@ $(document).ready(function () {
     // switch players
     if (quiz.currentPlayer === 1) {
       quiz.currentPlayer = 2
+      $('.left').css("background-color", "green")
     } else {
       quiz.currentPlayer = 1
+      $('.right').css("background-color", "green")
     }
     // return answers
     if (choice === correctA) {
