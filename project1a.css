@@ -127,10 +127,9 @@ h3, h5 {
   width: 100%;
 }
 
- button:hover {
+ .ansChoice:hover {
     background-color: #e0ebeb;
-    /*opacity: 0.6;
-    color: #e0ebeb;*/
+    opacity: 0.6;
 }
 
 #start {

@@ -34,7 +34,7 @@ var questions = [
     answerIndex : 1, // indicates the correct array number, use 0, 1...
     choices  : ['Esplanade', 'Bedok', 'Marina Bay', 'Admiralty'],
     // answers  : [ "The correct answer is True"]
-    gif : 'gifs/2-braddell.gif'
+    gif : 'gifs/asian-gymnast.gif'
   },
   {
     question : "When it’s 6pm on Friday and you know the week is all ________.",
@@ -215,6 +215,9 @@ $('#a3').click(function() {
 });
 $('#a4').click(function() {
   playTurn(3)
+
+
+
 });
 
 
