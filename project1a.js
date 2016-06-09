@@ -288,14 +288,6 @@ $(document).ready(function () {
     setTimeout(function () { playTurn(3) }, 500)
   })
 
-  // function highlightAnswer () {
-  //   if (correctAnswer() === choice) {
-  //     $('#a' + 'choice').effect('highlight', {color: '#5cd65c'}, 2000)
-  //   } else {
-  //     $('#a' + 'choice').effect('highlight', {color: '#b94646'}, 2000)
-  //   }
-  //   setTimeout(function () { playTurn(3) }, 2000)
-  // }
 // directions on intro page (how many questions can you answer)
 // make answer green if correct answer, see true/false example
 // highlight player 1 or 2 box when it's their turn or just 1 player
@@ -303,13 +295,4 @@ $(document).ready(function () {
 // game option #2 singaporean puns
 // timer?
 
-// $('.ansChoice').click(function () {
-//   var choice = parseInt(this.id);
-//   console.log(choice);
-//
-//     console.log(player);
-//   if (playTurn(choice)) {
-//     $(this).text(player)
-//   }
-// });
 })
