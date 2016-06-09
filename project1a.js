@@ -294,5 +294,4 @@ $(document).ready(function () {
 // random pun generation but you only play 10 questions
 // game option #2 singaporean puns
 // timer?
-
 })
