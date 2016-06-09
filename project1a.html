@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
     <script src="project1a.js"></script>
       <link rel="stylesheet" href="project1a.css">
     <!-- <script src="quiz-tester-master/quiz-tester.js"></script> -->
@@ -27,7 +29,6 @@
 
                   </div>
                   <div class="center" id="timer">
-                  Timer
                   </div>
                   <div class="right" id="player2">
                       <!-- <div class="">
@@ -42,7 +43,7 @@
                   <div class="content">
                       <div class="question" id="questiontext">
                       <h3>How well do you know your MRT Stations?</h3>
-                      <h5>See how many questions you can answer</h5>
+                      <!-- <h5>See how many questions you can answer</h5> -->
                       </div>
                   </div>
             </div>
@@ -51,14 +52,14 @@
             <div class="bottom">
                   <div class="row1">
                     <button id="start">Play</button>
+                    <button class="ansChoice" id="a0"></button>
                     <button class="ansChoice" id="a1"></button>
-                    <button class="ansChoice" id="a2"></button>
                     <!-- <input id="RadioTrue" type="radio" value="true" name="answer" checked="checked" /> True
                     <input id="RadioFalse" type="radio" value="false" name="answer" /> False -->
                   </div>
                   <div class="row2">
+                    <button class="ansChoice" id="a2"></button>
                     <button class="ansChoice" id="a3"></button>
-                    <button class="ansChoice" id="a4"></button>
                   </div>
             </div>
 
