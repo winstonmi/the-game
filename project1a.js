@@ -65,20 +65,32 @@ $(document).ready(function () {
       answerIndex: 1, // indicates the correct array number, use 0, 1...
       choices: ['Tanah Merah', 'Kranji', 'Redhill', 'Simei'],
       // answers  : [ "The correct answer is True"]
-      gif: 'gifs/'
+      gif: 'gifs/chips.gif'
     },
     { question: 'It"s so warm in my living room because ________ fan is broken.',
       answerIndex: 2, // indicates the correct array number, use 0, 1...
       choices: ['Changi', 'Bayfront', 'Marsiling', 'Expo'],
       // answers  : [ "The correct answer is True"]
-      gif: 'gifs/'
+      gif: 'gifs/hot.gif'
     },
     { question: 'Po-peh! Po-peh! Po-peh! ________ guniii.',
       answerIndex: 3, // indicates the correct array number, use 0, 1...
       choices: ['Somerset', 'Raffles Place', 'Clementi', 'Kallang'],
       // answers  : [ "The correct answer is True"]
-      gif: 'gifs/'
-    }
+      gif: 'gifs/cardboard-man.gif'
+    },
+    { question: 'I asked the carpenter to make me a chair, but he said he had no more ________.',
+      answerIndex: 2, // indicates the correct array number, use 0, 1...
+      choices: ['Redhill', 'Woodleigh', 'Pioneer', 'Joo Koon'],
+      // answers  : [ "The correct answer is True"]
+      gif: 'gifs/wood.gif'
+    },
+    { question: 'PM Lee does not write with his right hand. He is a ________',
+      answerIndex: 2, // indicates the correct array number, use 0, 1...
+      choices: ['Lavender', 'Outram Park', 'Lakeside', 'Boon Lay'],
+      // answers  : [ "The correct answer is True"]
+      gif: 'gifs/left-hand.gif'
+    },
   ]
 
   var quiz = {
